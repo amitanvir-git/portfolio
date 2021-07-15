@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+}
+
+/* navbar */
+
+nav {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+ul> li {
+    margin-right: 2rem;
+}
+
+#nav-link {
+    display: block;
+    font-size: 18px;
+    padding: 2px 8px;
+    color: black;
+    text-decoration: none;
+}
+
+#nav-link:hover {
+    transition: all ease 500ms;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    
+}
+
+
+.welcome-section {
+    background-color: cadetblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    font-weight: 400;
+    font-family: poppins;
+    font-size: 25px;
+}
+
+.welcome-section > h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.welcome-section > p {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+
+.project-head {
+    color: rgb(5, 76, 78);
+    max-width: 640px;
+    text-align: center;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 25px auto;
+}
+
+
+
+#projects {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-tile {
+    color: black;
+    width: 100%;
+}
+
+
+#card {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+}
+
+#card > img {
+    height: 70%;
+    width: 100%;
+}
+
+#card > div > a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#card > div > a:hover {
+    transition: all ease 300ms;
+    color: white;
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    padding: 0 20px;
+    background-color: cadetblue;
+}
+
+
+#contact-section > p {
+    font-size: 17px;
+    font-weight: 200;
+}
+
+#contact-section > h1 {
+    font-size: 40px;
+}
+
+
+
+/* frofile links */
+
+
+
+.profile-details {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+#profile-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: transform 0.3s ease-out;
+}
+
+#profile-link:hover {
+    color: rgb(59, 58, 58);
+    transform: translateY(5px);
+}
+
+footer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+}
+
+footer > p {
+    color: black;
+    font-size: 13px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
